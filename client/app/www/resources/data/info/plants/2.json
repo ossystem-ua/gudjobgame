@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Granollers",
+    "coordinates": [2.300296, 41.614111],
+    "info": {
+      "id": 2,
+      "image": "resources/images/bigplant.png",
+      "cost": 1100000,
+      "rent": 38500,
+      "productionCapacity": 342,
+      "logistic": 40,
+      "staff": 60,
+      "owner": false,
+      "favorableLevel": 75,
+      "defective": 2
+    }
+  }
+]

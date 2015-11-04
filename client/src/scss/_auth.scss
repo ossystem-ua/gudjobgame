@@ -1,0 +1,269 @@
+.auth-wrapper{
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.mui-menu.mui-menu-hideable{
+  z-index: 2!important;
+}
+
+.auth{
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  width: 400px;
+  padding: 15px;
+  margin: auto;
+  min-width: 320px;
+  background-color: #fff;
+  padding-bottom: 25px;
+  overflow: hidden;
+  font-family: Roboto, serif;
+  overflow-y: auto;
+
+  .add-language{
+    float: right;
+    cursor: pointer;
+    border-bottom: 1px dashed;
+  }
+
+  .language-select{
+    position: relative;
+
+
+    .remove-language{
+      position: absolute;
+        top: 15px;
+  font-size: 25px;
+  right: 0;
+  cursor: pointer;
+    }
+  }
+
+  &.login{
+    width: 800px;
+
+    .form{
+      max-width: 350px;
+      min-width: 290px;
+      float: right;
+    }
+
+    .greeting{
+      max-width: 400px;
+  float: right;
+  padding-left: 40px;
+  padding-top: 0;
+  line-height: 22px;
+    }
+  }
+
+  &.startregister{
+    .mui-drop-down-menu{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 45%!important;
+      }
+  }
+
+  &.companyinfo{
+    width: 1000px;
+
+    .form{
+      max-width: 400px;
+  float: right;
+  min-width: 290px;
+  width: 350px;
+
+    }
+
+    .rules{
+      width: 600px;
+  float: right;
+  padding-left: 40px;
+  padding-top: 0;
+  line-height: 22px;
+
+      p{
+        text-align: justify;
+      }
+
+      .subtitle{
+        font-weight: 600;
+        text-align: left;
+      }
+    }
+  }
+
+  .social-buttons {
+    margin-top: 10px;
+
+    a.soc{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color: #ccc;
+      margin-right: 10px;
+      background-size: contain;
+
+      &.fb{
+        background-image: url('../resources/images/auth/facebook-icon.png');
+      }
+
+      &.ln{
+        background-image: url('../resources/images/auth/linkedIn-icon.png');
+      }
+
+    }
+
+    a{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+
+  .rules{
+    
+  }
+
+  a{
+    text-decoration: none;
+    font-family: Roboto;
+    color: #1976D2;
+    font-size: 14px;
+
+    &.right{
+      float: right;
+    }
+
+    &.terms{
+      display: block;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+
+  }
+
+  .logo{
+    padding: 10px;
+    background-color: #f1495b;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: -15px -15px 15px;
+    font-weight: 600;
+  }
+
+  .title{
+    font-family: Roboto;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  &.mui-paper.mui-z-depth-3>.mui-z-depth-bottom{
+    box-shadow: none;
+  }
+
+  .mui-drop-down-menu{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 192px!important;
+  }
+
+  .mui-drop-down-menu .mui-menu-control .mui-menu-label{
+    padding: 0;
+  }
+
+  .mui-drop-down-menu .mui-menu-control .mui-menu-control-underline{
+    margin: 0;
+  }
+
+  .mui-text-field{
+    width: 100%;
+  }
+
+  .mui-checkbox{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .mui-raised-button{
+    width: 45%;
+  }
+
+  .register-btn{
+    float: right;
+  }
+}
+
+.register-label{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #278013;
+  padding: 5px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .auth{
+    &.companyinfo{
+        max-width: 400px;
+  width: 100%;
+  min-width: 290px;
+
+
+      .rules{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+      }
+
+      .form{
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  .auth{
+    &.login{
+        width: 100%;
+  min-width: 320px;
+  max-width: 400px;
+
+      .greeting{
+        margin-bottom: 20px;
+        padding: 0;
+      }
+
+      .form{
+        float: none;
+        margin: 0 auto;
+      }
+
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .auth{
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}

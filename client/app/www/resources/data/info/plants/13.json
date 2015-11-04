@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Bilbao",
+    "coordinates": [-2.935968, 43.259980],
+    "info": {
+      "id": 13,
+      "image": "resources/images/bigplant.png",
+      "cost": 1600000,
+      "rent": 56000,
+      "productionCapacity": 513,
+      "logistic": 30,
+      "staff": 90,
+      "owner": false,
+      "favorableLevel": 80,
+      "defective": 2
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Vacarisses",
+    "coordinates": [1.927488, 41.598116],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1900000,
+      "rent": 66500,
+      "productionCapacity": 621,
+      "logistic": 40,
+      "staff": 110,
+      "favorableLevel": 90,
+      "defective": 1
+    }
+  },
+  {
+    "id": 2,
+    "name": "Granollers",
+    "coordinates": [2.300296, 41.614111],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1100000,
+      "rent": 38500,
+      "productionCapacity": 342,
+      "logistic": 40,
+      "staff": 60,
+      "favorableLevel": 75,
+      "defective": 2
+    }
+  },
+  {
+    "id": 3,
+    "name": "Figueres",
+    "coordinates": [2.961682, 42.265267],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 800000,
+      "rent": 28000,
+      "productionCapacity": 288,
+      "logistic": 60,
+      "staff": 50,
+      "favorableLevel": 65,
+      "defective": 2
+    }
+  },
+  {
+    "id": 4,
+    "name": "Reus",
+    "coordinates": [1.112232, 41.153340],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 600000,
+      "rent": 21000,
+      "productionCapacity": 252,
+      "logistic": 80,
+      "staff": 45,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  },
+  {
+    "id": 5,
+    "name": "Lleida",
+    "coordinates": [0.623454, 41.619914],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 550000,
+      "rent": 19250,
+      "productionCapacity": 225,
+      "logistic": 60,
+      "staff": 40,
+      "favorableLevel": 75,
+      "defective": 3
+    }
+  },
+  {
+    "id": 6,
+    "name": "Amposta",
+    "coordinates": [0.575962, 40.706540],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 500000,
+      "rent": 17500,
+      "productionCapacity": 171,
+      "logistic": 60,
+      "staff": 30,
+      "favorableLevel": 70,
+      "defective": 2
+    }
+  }
+]

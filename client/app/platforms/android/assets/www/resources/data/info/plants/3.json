@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Figueres",
+    "coordinates": [2.961682, 42.265267],
+    "info": {
+      "id": 3,
+      "image": "resources/images/bigplant.png",
+      "cost": 800000,
+      "rent": 28000,
+      "productionCapacity": 288,
+      "logistic": 60,
+      "staff": 50,
+      "owner": true,
+      "favorableLevel": 65,
+      "defective": 2
+    }
+  }
+]

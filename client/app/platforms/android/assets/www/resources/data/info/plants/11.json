@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Torrelaguna",
+    "coordinates": [-3.541969, 40.828101],
+    "info": {
+      "id": 11,
+      "image": "resources/images/bigplant.png",
+      "cost": 900000,
+      "rent": 31500,
+      "productionCapacity": 315,
+      "logistic": 60,
+      "staff": 55,
+      "owner": false,
+      "favorableLevel": 60,
+      "defective": 1
+    }
+  }
+]

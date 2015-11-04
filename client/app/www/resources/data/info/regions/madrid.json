@@ -1,0 +1,103 @@
+[
+  {
+    "title": "Madrid",
+    "global": {
+      "image": "resources/images/regions/madrid.png",
+      "infrastructure": "strongly developed",
+      "consumptionCulture": "smart active",
+      "informationTransparency": "Transparent",
+      "employeeExp": 530,
+      "averageTax": "32/45",
+      "counterParties": 7,
+      "companies": 6,
+      "salary": {
+        "management": {
+          "low": "3000",
+          "average": "4000",
+          "skilled": "5000"
+        },
+        "functional": {
+          "low": "2000",
+          "average": "2800",
+          "skilled": "3600"
+        },
+        "support": {
+          "low": "1500",
+          "average": "2000",
+          "skilled": "2500"
+        }
+      }
+    },
+    "operations": {
+      "production": 0.25,
+      "salesPer": 0.75,
+      "sales": 244000,
+      "margin": 256000,
+      "costs": 300600
+    },
+    "chart": [
+      { "price": 100, "supply": 1800, "demand": 4000 },
+      { "price": 130, "supply": 2500, "demand": 2500 },
+      { "price": 170, "supply": 3500, "demand": 1300 },
+      { "price": 200, "supply": 4000, "demand": 1000 }
+    ],
+    "suppliers": [
+      {
+        "id": 7,
+        "name": "La Clima",
+        "status": "unactive"
+      },
+      {
+        "id": 8,
+        "name": "Cabeza",
+        "status": "unactive"
+      },
+      {
+        "id": 9,
+        "name": "Springbuild",
+        "status": "active"
+      },
+      {
+        "id": 10,
+        "name": "Feverisch",
+        "status": "unactive"
+      },
+      {
+        "id": 11,
+        "name": "Tomilera",
+        "status": "unactive"
+      },
+      {
+        "id": 12,
+        "name": "Forbello Mucci",
+        "status": "unactive"
+      }
+    ],
+    "plants": [
+          {
+            "id": 7,
+            "name": "Pozuelo"
+          },
+          {
+            "id": 8,
+            "name": "Aranjuez"
+          },
+          {
+            "id": 9,
+            "name": "Valdemoro"
+          },
+          {
+            "id": 10,
+            "name": "Alcobendas"
+          },
+          {
+            "id": 11,
+            "name": "Torrelaguna"
+          },
+          {
+            "id": 12,
+            "name": "Valdelagua"
+          }
+        ]
+  }
+]

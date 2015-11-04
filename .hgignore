@@ -1,0 +1,10 @@
+.idea/
+employer/build/
+employer/bootstrap.json
+employer/sass/example/bootstrap.json
+employer/phonegap
+node_modules/
+client/app/platforms/android/build
+
+.orig
+.pyc

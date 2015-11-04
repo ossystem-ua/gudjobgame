@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Catalonia",
+    "global": {
+      "infrastructure": "strongly developed",
+      "consumptionCulture": "smart active",
+      "informationTransparency": "Transparent",
+      "employeeExp": 520,
+      "averageTax": "30/48",
+      "counterParties": 6,
+      "companies": 8,
+      "salary": {
+        "management": {
+          "low": "3000",
+          "average": "4000",
+          "skilled": "5000"
+        },
+        "functional": {
+          "low": "2000",
+          "average": "2800",
+          "skilled": "3600"
+        },
+        "support": {
+          "low": "1500",
+          "average": "2000",
+          "skilled": "2500"
+        }
+      }
+    },
+    "operations": {
+      "production": 0.3,
+      "salesPer": 0.7,
+      "sales": 208500,
+      "margin": 209600,
+      "costs": 307400
+    },
+    "chart": [
+      { "price": 100, "supply": 1500, "demand": 4000 },
+      { "price": 130, "supply": 2500, "demand": 2500 },
+      { "price": 170, "supply": 3500, "demand": 1400 },
+      { "price": 200, "supply": 4000, "demand": 1000 }
+    ],
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Barna",
+        "status": "unactive"
+      },
+      {
+        "id": 2,
+        "name": "Bauch",
+        "status": "unactive"
+      },
+      {
+        "id": 3,
+        "name": "Mapre",
+        "status": "unactive"
+      },
+      {
+        "id": 4,
+        "name": "Ciutadella",
+        "status": "active"
+      },
+      {
+        "id": 5,
+        "name": "Ferina",
+        "status": "unactive"
+      },
+      {
+        "id": 6,
+        "name": "Talbo",
+        "status": "active"
+      }
+    ],
+    "plants": [
+          {
+            "id": 1,
+            "name": "Vacarisses"
+          },
+          {
+            "id": 2,
+            "name": "Granollers"
+          },
+          {
+            "id": 3,
+            "name": "Figueres"
+          },
+          {
+            "id": 4,
+            "name": "Reus"
+          },
+          {
+            "id": 5,
+            "name": "Lleida"
+          },
+          {
+            "id": 6,
+            "name": "Amposta"
+          }
+        ]
+  }
+]

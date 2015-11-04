@@ -1,0 +1,26 @@
+[
+  {
+    "id": 11,
+    "name": "Tomilera",
+    "coordinates": [-4.082448, 40.350730],
+    "info": {
+      "costSign": 50000,
+      "3": true,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 750,
+      "maxVolume": 300,
+      "delivery": 7,
+      "paymentTerm": 45,
+      "additional": "No",
+      "reliability": 92,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

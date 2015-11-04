@@ -1,0 +1,47 @@
+@import "clusters";
+//@import "leafleat";
+@import "map";
+@import "menu";
+@import "sidebar";
+@import "window";
+@import "auth";
+@import "input";
+@import "icons";
+@import "fonts";
+@import "operations";
+@import "sales";
+@import "finance";
+@import "supplier";
+@import "snackbar";
+@import "panel";
+@import "c3";
+@import "404";
+@import "info";
+@import "notifications";
+@import "area";
+@import "finish";
+@import "../../../node_modules/material-ui-sass/material-ui";
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body, html, #app, .map{
+	height: 100%;
+	overflow: hidden;
+  background-color: #eee;
+}
+
+body{
+	margin: 0;
+}
+
+
+.clearfix:after {
+    content:'';
+    display:block;
+    clear: both;
+}

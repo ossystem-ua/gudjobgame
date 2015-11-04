@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Getxo",
+    "coordinates": [-3.003500, 43.344331],
+    "info": {
+      "id": 16,
+      "image": "resources/images/bigplant.png",
+      "cost": 700000,
+      "rent": 24500,
+      "productionCapacity": 252,
+      "logistic": 40,
+      "staff": 45,
+      "owner": false,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  }
+]

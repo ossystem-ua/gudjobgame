@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Durango",
+    "coordinates": [-2.629000, 43.168739],
+    "info": {
+      "id": 17,
+      "image": "resources/images/bigplant.png",
+      "cost": 600000,
+      "rent": 21000,
+      "productionCapacity": 225,
+      "logistic": 50,
+      "staff": 40,
+      "owner": false,
+      "favorableLevel": 85,
+      "defective": 1
+    }
+  }
+]

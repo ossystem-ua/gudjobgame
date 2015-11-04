@@ -1,0 +1,78 @@
+{
+    "data": {
+		"info": {
+			"id": 15,
+			"name": "Bilbao",
+			"image": "resources/images/operations/001.png",
+			"cost": 750000,
+			"rent": 26250,
+			"productionCapacity": 288,
+			"logistic": 70,
+			"staff": 50,
+			"owner": false,
+			"favorableLevel": 70,
+			"defective": 2,
+			
+			"performanceBonus": 20,
+			"productionVolume": 500,
+			"costUnit": 456,
+            "unitsStock": 23456,
+	        "levelStaff": 30,
+			
+			"owner": false,
+			"renewMonthly": true,
+			"salary": true
+		},
+		"employees" : {
+			"management": {
+				"low": [3000,true],
+				"average": [4000,true],
+				"skilled": [7000,false]
+			},
+			"functional": {
+				"low": [1800,false],
+				"average": [2400,true],
+				"skilled": [3200,true]
+			},
+			"support": {
+				"low": [900,false],
+				"average": [1200,true],
+				"skilled": [1500,false]
+			},
+			"active": {
+				"management": "low",
+				"functional": false,
+				"support": false
+			}
+		}
+    },
+    "stores": {
+        "graphCost": [
+		  { "cost": 140, "quantity": 100 },
+		  { "cost": 220, "quantity": 420 },
+		  { "cost": 185, "quantity": 500 },
+		  { "cost": 190, "quantity": 580 },
+		  { "cost": 200, "quantity": 660 },
+		  { "cost": 170, "quantity": 740 },
+		  { "cost": 160, "quantity": 820 },
+		  { "cost": 165, "quantity": 900 },
+		  { "cost": 170, "quantity": 980 },
+		  { "cost": 150, "quantity": 1060 },
+		  { "cost": 130, "quantity": 1140 }
+        ],
+        "graphStock": [
+            { "month": 1, "margin": 140  },
+            { "month": 2, "margin": 130 },
+            { "month": 3, "margin": 150 },
+            { "month": 4, "margin": 160 },
+            { "month": 5, "margin": 220 },
+            { "month": 6, "margin": 185 },
+            { "month": 7, "margin": 190 },
+            { "month": 8, "margin": 200 },
+            { "month": 9, "margin": 170 },
+            { "month": 10, "margin": 160  },
+            { "month": 11, "margin": 150 },
+            { "month": 12, "margin": 130 }
+        ]
+    }
+}

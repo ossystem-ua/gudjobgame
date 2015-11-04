@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Vacarisses",
+    "coordinates": [1.927488, 41.598116],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1900000,
+      "rent": 66500,
+      "productionCapacity": 621,
+      "logistic": 40,
+      "staff": 110,
+      "favorableLevel": 90,
+      "defective": 1
+    }
+  },
+  {
+    "id": 2,
+    "name": "Granollers",
+    "coordinates": [2.300296, 41.614111],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1100000,
+      "rent": 38500,
+      "productionCapacity": 342,
+      "logistic": 40,
+      "staff": 60,
+      "favorableLevel": 75,
+      "defective": 2
+    }
+  },
+  {
+    "id": 3,
+    "name": "Figueres",
+    "coordinates": [2.961682, 42.265267],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 800000,
+      "rent": 28000,
+      "productionCapacity": 288,
+      "logistic": 60,
+      "staff": 50,
+      "favorableLevel": 65,
+      "defective": 2
+    }
+  },
+  {
+    "id": 4,
+    "name": "Reus",
+    "coordinates": [1.112232, 41.153340],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 600000,
+      "rent": 21000,
+      "productionCapacity": 252,
+      "logistic": 80,
+      "staff": 45,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  },
+  {
+    "id": 5,
+    "name": "Lleida",
+    "coordinates": [0.623454, 41.619914],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 550000,
+      "rent": 19250,
+      "productionCapacity": 225,
+      "logistic": 60,
+      "staff": 40,
+      "favorableLevel": 75,
+      "defective": 3
+    }
+  },
+  {
+    "id": 6,
+    "name": "Amposta",
+    "coordinates": [0.575962, 40.706540],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 500000,
+      "rent": 17500,
+      "productionCapacity": 171,
+      "logistic": 60,
+      "staff": 30,
+      "favorableLevel": 70,
+      "defective": 2
+    }
+  },
+  {
+    "id": 7,
+    "name": "Pozuelo",
+    "coordinates": [-3.792952, 40.440360],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 2000000,
+      "rent": 70000,
+      "productionCapacity": 684,
+      "logistic": 30,
+      "staff": 120,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  },
+  {
+    "id": 8,
+    "name": "Aranjuez",
+    "coordinates": [-3.601625, 40.030777],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1450000,
+      "rent": 50750,
+      "productionCapacity": 513,
+      "logistic": 70,
+      "staff": 90,
+      "favorableLevel": 70,
+      "defective": 1
+    }
+  },
+  {
+    "id": 9,
+    "name": "Valdemoro",
+    "coordinates": [-3.677000, 40.188647],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1400000,
+      "rent": 49000,
+      "productionCapacity": 450,
+      "logistic": 50,
+      "staff": 80,
+      "favorableLevel": 70,
+      "defective": 2
+    }
+  },
+  {
+    "id": 10,
+    "name": "Alcobendas",
+    "coordinates": [-3.631410, 40.540504],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1200000,
+      "rent": 42000,
+      "productionCapacity": 342,
+      "logistic": 40,
+      "staff": 60,
+      "favorableLevel": 80,
+      "defective": 3
+    }
+  },
+  {
+    "id": 11,
+    "name": "Torrelaguna",
+    "coordinates": [-3.541969, 40.828101],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 900000,
+      "rent": 31500,
+      "productionCapacity": 315,
+      "logistic": 60,
+      "staff": 55,
+      "favorableLevel": 60,
+      "defective": 1
+    }
+  },
+  {
+    "id": 12,
+    "name": "Valdelagua",
+    "coordinates": [-3.613345, 40.650834],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 850000,
+      "rent": 29750,
+      "productionCapacity": 288,
+      "logistic": 60,
+      "staff": 50,
+      "favorableLevel": 75,
+      "defective": 2
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bilbao",
+    "coordinates": [-2.935968, 43.259980],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1600000,
+      "rent": 56000,
+      "productionCapacity": 513,
+      "logistic": 30,
+      "staff": 90,
+      "favorableLevel": 80,
+      "defective": 2
+    }
+  },
+  {
+    "id": 14,
+    "name": "Vitoria-Gasteiz",
+    "coordinates": [-2.679476, 42.855579],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1000000,
+      "rent": 35000,
+      "productionCapacity": 342,
+      "logistic": 60,
+      "staff": 60,
+      "favorableLevel": 75,
+      "defective": 3
+    }
+  },
+  {
+    "id": 15,
+    "name": "Tolosa",
+    "coordinates": [-2.075551, 43.133604],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 750000,
+      "rent": 26250,
+      "productionCapacity": 288,
+      "logistic": 70,
+      "staff": 50,
+      "favorableLevel": 70,
+      "defective": 2
+    }
+  },
+  {
+    "id": 16,
+    "name": "Getxo",
+    "coordinates": [-3.003500, 43.344331],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 700000,
+      "rent": 24500,
+      "productionCapacity": 252,
+      "logistic": 40,
+      "staff": 45,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  },
+  {
+    "id": 17,
+    "name": "Durango",
+    "coordinates": [-2.629000, 43.168739],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 600000,
+      "rent": 21000,
+      "productionCapacity": 225,
+      "logistic": 50,
+      "staff": 40,
+      "favorableLevel": 85,
+      "defective": 1
+    }
+  },
+  {
+    "id": 18,
+    "name": "Zarautz",
+    "coordinates": [-2.168441, 43.283746],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 450000,
+      "rent": 15750,
+      "productionCapacity": 225,
+      "logistic": 60,
+      "staff": 40,
+      "favorableLevel": 65,
+      "defective": 2
+    }
+  }
+]

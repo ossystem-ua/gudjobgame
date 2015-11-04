@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Barna",
+    "coordinates": [2.145029, 41.387454],
+    "info": {
+      "costSign": 110000,
+      "3": false,
+      "6": false,
+      "12": false,
+      "24": true,
+      "costPerUnit": 695,
+      "maxVolume": 800,
+      "delivery": 7,
+      "paymentTerm": 60,
+      "additional": "No",
+      "reliability": 98
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bauch",
+    "coordinates": [1.078123, 42.160678],
+    "info": {
+      "costSign": 70000,
+      "3": false,
+      "6": false,
+      "12": true,
+      "24": true,
+      "costPerUnit": 700,
+      "maxVolume": 450,
+      "delivery": 14,
+      "paymentTerm": 45,
+      "additional": "Yes",
+      "reliability": 94
+    }
+  },
+  {
+    "id": 3,
+    "name": "Mapre",
+    "coordinates": [1.476698, 41.923588],
+    "info": {
+      "costSign": 50000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": true,
+      "costPerUnit": 715,
+      "maxVolume": 350,
+      "delivery": 14,
+      "paymentTerm": 45,
+      "additional": "No",
+      "reliability": 87
+    }
+  },
+  {
+    "id": 4,
+    "name": "Ciutadella",
+    "coordinates": [0.625257, 41.175401],
+    "info": {
+      "costSign": 45000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 725,
+      "maxVolume": 300,
+      "delivery": 7,
+      "paymentTerm": 30,
+      "additional": "No",
+      "reliability": 88
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ferina",
+    "coordinates": [1.174254, 42.611043],
+    "info": {
+      "costSign": 30000,
+      "3": true,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 740,
+      "maxVolume": 200,
+      "delivery": 7,
+      "paymentTerm": 45,
+      "additional": "No",
+      "reliability": 75
+    }
+  },
+  {
+    "id": 6,
+    "name": "Talbo",
+    "coordinates": [2.553038, 41.668114],
+    "info": {
+      "costSign": 20000,
+      "3": true,
+      "6": true,
+      "12": false,
+      "24": false,
+      "costPerUnit": 760,
+      "maxVolume": 150,
+      "delivery": 14,
+      "paymentTerm": 60,
+      "additional": "Yes",
+      "reliability": 95
+    }
+  }
+]
+
+

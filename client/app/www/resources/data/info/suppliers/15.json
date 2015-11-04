@@ -1,0 +1,26 @@
+[
+  {
+    "id": 15,
+    "name": "Marcus Garcia",
+    "coordinates": [-2.191055, 43.232482],
+    "info": {
+      "costSign": 30000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": true,
+      "costPerUnit": 725,
+      "maxVolume": 300,
+      "delivery": 14,
+      "paymentTerm": 30,
+      "additional": "Yes",
+      "reliability": 89,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

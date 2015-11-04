@@ -1,0 +1,27 @@
+[
+  {
+    "id": 2,
+    "name": "Bauch",
+    "image": "resources/images/bigplant.png",
+    "coordinates": [1.078123, 42.160678],
+    "info": {
+      "costSign": 70000,
+      "3": false,
+      "6": false,
+      "12": true,
+      "24": true,
+      "costPerUnit": 700,
+      "maxVolume": 450,
+      "delivery": 14,
+      "paymentTerm": 45,
+      "additional": "Yes",
+      "reliability": 94,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

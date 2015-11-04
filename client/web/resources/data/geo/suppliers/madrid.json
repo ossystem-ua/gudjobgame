@@ -1,0 +1,110 @@
+[
+  {
+    "id": 7,
+    "name": "La Clima",
+    "coordinates": [-3.909413, 40.776381],
+    "info": {
+      "costSign": 100000,
+      "3": false,
+      "6": false,
+      "12": false,
+      "24": true,
+      "costPerUnit": 700,
+      "maxVolume": 700,
+      "delivery": 7,
+      "paymentTerm": 45,
+      "additional": "Yes",
+      "reliability": 97
+    }
+  },
+  {
+    "id": 8,
+    "name": "Cabeza",
+    "coordinates": [-4.167592, 40.484559],
+    "info": {
+      "costSign": 90000,
+      "3": false,
+      "6": false,
+      "12": true,
+      "24": true,
+      "costPerUnit": 720,
+      "maxVolume": 500,
+      "delivery": 14,
+      "paymentTerm": 45,
+      "additional": "No",
+      "reliability": 96
+    }
+  },
+  {
+    "id": 9,
+    "name": "Springbuild",
+    "coordinates": [-3.285939, 40.241798],
+    "info": {
+      "costSign": 75000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": true,
+      "costPerUnit": 725,
+      "maxVolume": 400,
+      "delivery": 14,
+      "paymentTerm": 30,
+      "additional": "No",
+      "reliability": 84
+    }
+  },
+  {
+    "id": 10,
+    "name": "Feverisch",
+    "coordinates": [-3.302419, 40.438585],
+    "info": {
+      "costSign": 70000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 730,
+      "maxVolume": 350,
+      "delivery": 7,
+      "paymentTerm": 30,
+      "additional": "Yes",
+      "reliability": 98
+    }
+  },
+  {
+    "id": 11,
+    "name": "Tomilera",
+    "coordinates": [-4.082448, 40.350730],
+    "info": {
+      "costSign": 50000,
+      "3": true,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 750,
+      "maxVolume": 300,
+      "delivery": 7,
+      "paymentTerm": 45,
+      "additional": "No",
+      "reliability": 92
+    }
+  },
+  {
+    "id": 12,
+    "name": "Forbello Mucci",
+    "coordinates": [-4.379079, 40.375843],
+    "info": {
+      "costSign": 30000,
+      "3": true,
+      "6": true,
+      "12": false,
+      "24": false,
+      "costPerUnit": 780,
+      "maxVolume": 250,
+      "delivery": 14,
+      "paymentTerm": 30,
+      "additional": "No",
+      "reliability": 85
+    }
+  }
+]

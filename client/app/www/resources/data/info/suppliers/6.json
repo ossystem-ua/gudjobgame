@@ -1,0 +1,27 @@
+[
+  {
+    "id": 6,
+    "name": "Talbo",
+    "image": "resources/images/bigplant.png",
+    "coordinates": [2.553038, 41.668114],
+    "info": {
+      "costSign": 20000,
+      "3": true,
+      "6": true,
+      "12": false,
+      "24": false,
+      "costPerUnit": 760,
+      "maxVolume": 150,
+      "delivery": 14,
+      "paymentTerm": 60,
+      "additional": "Yes",
+      "reliability": 95,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

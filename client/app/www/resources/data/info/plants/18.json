@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Zarautz",
+    "coordinates": [-2.168441, 43.283746],
+    "info": {
+      "id": 18,
+      "image": "resources/images/bigplant.png",
+      "cost": 450000,
+      "rent": 15750,
+      "productionCapacity": 225,
+      "logistic": 60,
+      "staff": 40,
+      "owner": false,
+      "favorableLevel": 65,
+      "defective": 2
+    }
+  }
+]

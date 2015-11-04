@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Valdelagua",
+    "coordinates": [-3.613345, 40.650834],
+    "info": {
+      "id": 12,
+      "image": "resources/images/bigplant.png",
+      "cost": 850000,
+      "rent": 29750,
+      "productionCapacity": 288,
+      "logistic": 60,
+      "staff": 50,
+      "owner": false,
+      "favorableLevel": 75,
+      "defective": 2
+    }
+  }
+]

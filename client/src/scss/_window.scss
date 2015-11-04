@@ -1,0 +1,167 @@
+.window {
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	width: 600px;
+	background: #FFF;
+	z-index: 30;
+	font-family: Roboto;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.16);
+	overflow: hidden;	
+	bottom: 20px;
+	border-radius: 2px;
+	
+	
+	&.closed {
+		display: none;
+	}
+	
+	&.opened {
+		display: block;
+	}
+	
+	> .mui-toolbar {
+		padding: 0;
+		box-shadow: 0 0 3px;
+		
+		.mui-toolbar-group.mui-left:first-child {
+			margin-left: 0;
+			width: 100%;
+		}
+		
+		.title {
+			display: inline-block;
+			height: 100%;
+			line-height: 56px;
+			margin-left: 20px;
+			font-size: 30px;
+		  	text-transform: uppercase;
+		}
+		
+		.btn-close {
+			position: absolute;
+			right: 20px;
+			top: 28px;
+			z-index: 2;
+			width: 50px;
+			height: 50px;
+			border-radius: 100%;
+			border: 0;
+			box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+			margin-right: 5px;
+			background-color: #E41D52;
+			outline: none;
+			color: #FFF;
+			
+			span {
+				font-size: 23px;
+				color: #FFF;
+				font-weight: 500;
+				line-height: 50px;
+				text-transform: uppercase;
+			}
+		}
+	}
+		
+	.body {
+		width: 100%;
+		overflow: hidden;
+		height: calc(100% - 56px);
+	}	
+}
+
+.win-finance,
+.win-operations {
+		
+	.mui-toolbar {
+		box-shadow: none !important;
+	}
+
+	.btn-close {
+		top: 77px !important;
+	}
+}
+
+
+/* ---------------------------------------------
+ * Component tabs for Window
+**/
+.cmp-tabs {
+	height: 100%;
+	width: 100%;
+	
+	.tabs-header {
+		width: 100%;
+		height: 50px;
+		background-color: #E1E1E1;
+		box-shadow: 0 0 3px;
+
+		span {
+			display: inline-block;
+			cursor: pointer;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 500;
+			padding: 10px;
+			margin-top: -10px;
+			color: #1751AB;
+
+			&:first-child {
+				padding-left: 20px;
+			}
+
+			&.active {
+				color: #000;
+			}
+				
+			&.disable {
+				color: rgba(23, 81, 171, 0.55);
+				cursor: default;
+			}
+		}
+	}
+		
+	.tab-container {
+		overflow: auto;
+		height: calc(100% - 50px);
+	}
+}
+
+/* ---------------------------------------------*/
+
+@media (max-width: 800px) { 
+	.mobile-device .window {
+		right: 0px;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+		z-index: 31;
+		width: auto;
+	}
+}
+
+@media (max-width: 640px) { 
+	.window {
+		width: auto;
+		right: 20px;
+	}
+	
+	.mobile-device .window {
+		right: 0px;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+		z-index: 31;
+		width: auto;
+	}
+}
+
+@media (max-width: 500px) {
+	.window {
+		right: 0px;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+		z-index: 31;
+	}
+}

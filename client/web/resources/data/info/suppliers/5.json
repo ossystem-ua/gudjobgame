@@ -1,0 +1,27 @@
+[
+  {
+    "id": 5,
+    "name": "Ferina",
+    "image": "resources/images/bigplant.png",
+    "coordinates": [1.174254, 42.611043],
+    "info": {
+      "costSign": 30000,
+      "3": true,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 740,
+      "maxVolume": 200,
+      "delivery": 7,
+      "paymentTerm": 45,
+      "additional": "No",
+      "reliability": 75,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

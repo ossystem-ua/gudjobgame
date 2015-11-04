@@ -1,0 +1,125 @@
+.custom-popup{
+
+  .leaflet-bottom{
+    z-index: 10;
+  }
+  
+  &.leaflet-container a{
+    &.leaflet-popup-close-button{
+      top: 17px;
+      right: 5px;
+      padding: 4px 5px;
+      line-height: 11px;
+      font-weight: bold;
+      background: rgb(137, 132, 132);
+      border-radius: 100%;
+      width: initial;
+      height: initial;
+    }
+  }
+  
+
+  .leaflet-popup-content-wrapper{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    border-radius: 0;
+  }
+
+  .leaflet-popup-content{
+    line-height: 1.4;
+    margin: 13px 30px 13px 15px;
+    text-align: left;
+  }
+
+  .trigger{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+
+
+.map-control{
+  position: relative;
+  width: 60px;
+  height: 60px;
+
+  button{
+    box-shadow: 0 0 1px #6c6c6c;
+
+    &:before{
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+
+  .icon-plant:before{
+    font-size: 25px;
+  }
+
+  .icon-setting:before{
+    position: absolute;
+    left: 7px;
+    top: 12px;
+    font-size: 36px!important;
+    line-height: 24px;
+  }
+
+  .btn-float{
+    background-color: #2196F3;
+  }
+
+  .btn-float.active{
+    background-color: #0F548B;
+  }
+
+  .main-button{
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+  }
+
+
+
+  .action-button{
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+    width: 45px;
+    height: 45px;
+    margin-left: 2.5px;
+    line-height: 22px;
+  }
+
+  &.active{
+    .btn1{
+      bottom: 60px;
+    }
+
+    .btn2{
+      bottom: 115px;
+    }
+
+    .btn3{
+      bottom: 170px;
+    }
+
+    .btn4{
+      bottom: 225px;
+
+      &:after{
+        content: 'i';
+        font-size: 25px;
+        font-style: italic;
+        color: #fff;
+      }
+    }
+
+    .main-button{
+      transform: rotate(360deg);
+    }
+  }
+
+}
+

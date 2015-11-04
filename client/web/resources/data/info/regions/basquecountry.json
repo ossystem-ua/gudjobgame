@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Basque Country",
+    "global": {
+      "image": "resources/images/regions/paisvasco.png",
+      "infrastructure": "strongly developed",
+      "consumptionCulture": "smart active",
+      "informationTransparency": "Transparent",
+      "employeeExp": 500,
+      "averageTax": "35/50",
+      "counterParties": 8,
+      "companies": 5,
+      "salary": {
+        "management": {
+          "low": "3000",
+          "average": "4000",
+          "skilled": "5000"
+        },
+        "functional": {
+          "low": "2000",
+          "average": "2800",
+          "skilled": "3600"
+        },
+        "support": {
+          "low": "1500",
+          "average": "2000",
+          "skilled": "2500"
+        }
+      }
+    },
+
+    "operations": {
+      "production": 0.45,
+      "salesPer": 0.55,
+      "sales": 246000,
+      "margin": 250000,
+      "costs": 350000
+    },
+
+    "chart": [
+      { "price": 100, "supply": 1600, "demand": 4000 },
+      { "price": 130, "supply": 2500, "demand": 2500 },
+      { "price": 170, "supply": 3500, "demand": 1500 },
+      { "price": 200, "supply": 4000, "demand": 1000 }
+    ],
+
+    "suppliers": [
+      {
+        "id": 13,
+        "name": "Grupo Basque",
+        "status": "unactive"
+      },
+      {
+        "id": 14,
+        "name": "Cara Zekov",
+        "status": "unactive"
+      },
+      {
+        "id": 15,
+        "name": "Marcus Garcia",
+        "status": "active"
+      },
+      {
+        "id": 16,
+        "name": "Caletta",
+        "status": "unactive"
+      },
+      {
+        "id": 17,
+        "name": "Huffington’s",
+        "status": "active"
+      },
+      {
+        "id": 18,
+        "name": "Chashoo",
+        "status": "unactive"
+      }
+    ],
+    "plants": [
+          {
+            "id": 13,
+            "name": "Bilbao"
+          },
+          {
+            "id": 14,
+            "name": "Vitoria-Gasteiz"
+          },
+          {
+            "id": 15,
+            "name": "Tolosa"
+          },
+          {
+            "id": 16,
+            "name": "Getxo"
+          },
+          {
+            "id": 17,
+            "name": "Durango"
+          },
+          {
+            "id": 18,
+            "name": "Zarautz"
+          }
+        ]
+  }
+]

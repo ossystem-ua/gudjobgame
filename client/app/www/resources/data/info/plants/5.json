@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Lleida",
+    "coordinates": [0.623454, 41.619914],
+    "info": {
+      "id": 5,
+      "image": "resources/images/bigplant.png",
+      "cost": 550000,
+      "rent": 19250,
+      "productionCapacity": 225,
+      "logistic": 60,
+      "staff": 40,
+      "owner": true,
+      "favorableLevel": 75,
+      "defective": 3
+    }
+  }
+]

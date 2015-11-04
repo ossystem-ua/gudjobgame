@@ -1,0 +1,78 @@
+[
+  {
+    "country": "Spain",
+    "name": "Catalonia",
+    "info": {
+      "image": "resources/images/regions/catalonia.png",
+      "infrastructure": "strongly developed",
+      "consumptionCulture": "smart active",
+      "informationTransparency": "Transparent",
+      "employeeExp": 520,
+      "averageTax": "30/48",
+      "counterParties": 6,
+      "companies": 8,
+      "production": 0.3,
+      "salesPer": 0.7,
+      "sales": 208500,
+      "margin": 209600,
+      "costs": 307400
+    },
+    "chart": [
+        { "price": 100, "supply": 1500, "demand": 4000 },
+        { "price": 130, "supply": 2500, "demand": 2500 },
+        { "price": 170, "supply": 3500, "demand": 1400 },
+        { "price": 200, "supply": 4000, "demand": 1000 }
+      ]
+  },
+  {
+    "country": "Spain",
+    "name": "Madrid",
+    "info": {
+      "image": "resources/images/regions/madrid.png",
+      "infrastructure": "strongly developed",
+      "consumptionCulture": "smart active",
+      "informationTransparency": "Transparent",
+      "employeeExp": 530,
+      "averageTax": "32/45",
+      "counterParties": 7,
+      "companies": 6,
+      "production": 0.25,
+      "salesPer": 0.75,
+      "sales": 244000,
+      "margin": 256000,
+      "costs": 300600
+    },
+    "chart": [
+        { "price": 100, "supply": 1800, "demand": 4000 },
+        { "price": 130, "supply": 2500, "demand": 2500 },
+        { "price": 170, "supply": 3500, "demand": 1300 },
+        { "price": 200, "supply": 4000, "demand": 1000 }
+      ]
+  },
+  {
+    "country": "Spain",
+    "name": "Basque Country",
+    "info": {
+      "image": "resources/images/regions/paisvasco.png",
+      "infrastructure": "strongly developed",
+      "consumptionCulture": "smart active",
+      "informationTransparency": "Transparent",
+      "employeeExp": 500,
+      "averageTax": "35/50",
+      "counterParties": 8,
+      "companies": 5,
+      "production": 0.45,
+      "salesPer": 0.55,
+      "sales": 246000,
+      "margin": 250000,
+      "costs": 350000
+    },
+
+    "chart": [
+        { "price": 100, "supply": 1600, "demand": 4000 },
+        { "price": 130, "supply": 2500, "demand": 2500 },
+        { "price": 170, "supply": 3500, "demand": 1500 },
+        { "price": 200, "supply": 4000, "demand": 1000 }
+      ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 13,
+    "name": "Bilbao",
+    "coordinates": [-2.935968, 43.259980],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1600000,
+      "rent": 56000,
+      "productionCapacity": 513,
+      "logistic": 30,
+      "staff": 90,
+      "favorableLevel": 80,
+      "defective": 2
+    }
+  },
+  {
+    "id": 14,
+    "name": "Vitoria-Gasteiz",
+    "coordinates": [-2.679476, 42.855579],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1000000,
+      "rent": 35000,
+      "productionCapacity": 342,
+      "logistic": 60,
+      "staff": 60,
+      "favorableLevel": 75,
+      "defective": 3
+    }
+  },
+  {
+    "id": 15,
+    "name": "Tolosa",
+    "coordinates": [-2.075551, 43.133604],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 750000,
+      "rent": 26250,
+      "productionCapacity": 288,
+      "logistic": 70,
+      "staff": 50,
+      "favorableLevel": 70,
+      "defective": 2
+    }
+  },
+  {
+    "id": 16,
+    "name": "Getxo",
+    "coordinates": [-3.003500, 43.344331],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 700000,
+      "rent": 24500,
+      "productionCapacity": 252,
+      "logistic": 40,
+      "staff": 45,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  },
+  {
+    "id": 17,
+    "name": "Durango",
+    "coordinates": [-2.629000, 43.168739],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 600000,
+      "rent": 21000,
+      "productionCapacity": 225,
+      "logistic": 50,
+      "staff": 40,
+      "favorableLevel": 85,
+      "defective": 1
+    }
+  },
+  {
+    "id": 18,
+    "name": "Zarautz",
+    "coordinates": [-2.168441, 43.283746],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 450000,
+      "rent": 15750,
+      "productionCapacity": 225,
+      "logistic": 60,
+      "staff": 40,
+      "favorableLevel": 65,
+      "defective": 2
+    }
+  }
+]

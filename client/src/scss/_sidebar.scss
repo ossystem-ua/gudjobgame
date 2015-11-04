@@ -1,0 +1,294 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  background-color: #FFF;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  z-index: 35;
+  font-family: Roboto, serif;
+  overflow: hidden;
+  right: 0px;
+
+  transition: 0.3s;
+
+  &.closed {
+    right: -10000px;
+    transition: 2.4s;
+  }
+
+  > .mui-toolbar {
+    padding: 0;
+    box-shadow: 0 0 3px;
+
+    .mui-toolbar-group.mui-left:first-child {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    .title {
+      display: inline-block;
+      height: 100%;
+      line-height: 56px;
+      margin-left: 10px;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    .btn-close {
+      position: absolute;
+      right: 20px;
+      top: 28px;
+      z-index: 2;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      border: 0;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+      margin-right: 5px;
+      background-color: #E41D52;
+      outline: none;
+      color: #FFF;
+
+      span {
+        font-size: 23px;
+        color: #FFF;
+        font-weight: 500;
+        line-height: 50px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .body {
+    width: 100%;
+    overflow: hidden;
+    height: calc(100% - 56px);
+  }
+
+  .label-panel{
+
+    background-color: #2196F3;
+    padding: 10px;
+    float: left;
+    color: #fff;
+    line-height: 25px;
+
+  }
+
+}
+
+.sidebar-notifications,
+.sidebar-area,
+.sidebar-finance,
+.sidebar-operations,
+.sidebar-sales {
+
+  .mui-toolbar {
+    box-shadow: none !important;
+  }
+
+  .btn-close {
+    top: 77px !important;
+  }
+
+
+  /* ---------------------------------------------
+   * Component tabs for Window
+  **/
+  .cmp-tabs {
+    height: 100%;
+    width: 100%;
+
+    &.operations{
+      height: auto!important;
+
+      .tabs-header{
+        background-color: #fff;
+        box-shadow: none;
+        margin-top: 20px;
+
+        span{
+          padding-left: 0!important;
+        }
+      }
+    }
+
+    .tabs-header {
+      width: 100%;
+      height: 50px;
+      background-color: #E1E1E1;
+      box-shadow: 0 0 3px;
+
+      span {
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px;
+        margin-top: -10px;
+        color: #1751AB;
+
+        &:first-child {
+          padding-left: 20px;
+        }
+
+        &.active {
+          color: #000;
+        }
+
+        &.disable {
+          color: rgba(23, 81, 171, 0.55);
+          cursor: default;
+        }
+      }
+    }
+
+    .tab-container {
+      overflow-y: auto;
+      height: calc(100% - 50px);
+      padding-bottom: 55px;
+      padding-top: 25px;
+    }
+  }
+}
+
+
+
+.sidebar-plant,
+.sidebar-supplier {
+    .body {
+      overflow-y: auto;
+      padding-bottom: 55px;
+      padding-top: 25px;
+    }
+}
+
+
+.sidebar-finance,
+.sidebar-operations,
+.sidebar-sales,
+.sidebar-win-supplier {
+  width: 600px;
+}
+
+.sidebar-operations .cmp-tabs .tab-container {
+  padding-top: 0px;
+}
+
+
+    .global{
+
+        .chart{
+            width: 100%;
+            height: 400px;
+            background-color: #eee;
+        }
+    }
+
+    .table-title{
+      padding: 15px 15px 0 0;
+    }
+
+    .salary-table{
+      width: 100%;
+      margin-top: 10px;
+
+      tr:nth-child(2n+1) {
+        background-color: #eee;
+      }
+
+      tr:nth-child(2n) {
+        background-color: #eee;
+      }
+
+      td{
+        width: 25%;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+
+
+    .plant{
+      padding: 15px;
+
+      p{
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+
+        label{
+          float: left;
+        }
+
+        span{
+          float: right;
+        }
+
+      }
+
+    }
+
+
+
+    .progress{
+      height: 25px;
+      position: relative;
+      background-color: #eee;
+      text-align: center;
+      margin-bottom: 20px;
+
+      .label{
+        position: absolute;
+        left: 5px;
+        z-index: 50;
+        text-transform: uppercase;
+        line-height: 25px;
+        color: #fff;
+      }
+
+      .value{
+        z-index: 10;
+        position: relative;
+        line-height: 25px;
+      }
+
+      div{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #5D8ECF;
+      }
+    }
+
+
+
+@media (max-width: 600px) {
+  .sidebar-finance,
+  .sidebar-operations,
+  .sidebar-sales,
+  .sidebar-win-supplier {
+      width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+.sidebar{
+  width: 100%;
+
+  .notifications{
+    .notification{
+      .info{
+        width: 75%;
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 7,
+    "name": "Pozuelo",
+    "coordinates": [-3.792952, 40.440360],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 2000000,
+      "rent": 70000,
+      "productionCapacity": 684,
+      "logistic": 30,
+      "staff": 120,
+      "favorableLevel": 80,
+      "defective": 1
+    }
+  },
+  {
+    "id": 8,
+    "name": "Aranjuez",
+    "coordinates": [-3.601625, 40.030777],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1450000,
+      "rent": 50750,
+      "productionCapacity": 513,
+      "logistic": 70,
+      "staff": 90,
+      "favorableLevel": 70,
+      "defective": 1
+    }
+  },
+  {
+    "id": 9,
+    "name": "Valdemoro",
+    "coordinates": [-3.677000, 40.188647],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1400000,
+      "rent": 49000,
+      "productionCapacity": 450,
+      "logistic": 50,
+      "staff": 80,
+      "favorableLevel": 70,
+      "defective": 2
+    }
+  },
+  {
+    "id": 10,
+    "name": "Alcobendas",
+    "coordinates": [-3.631410, 40.540504],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 1200000,
+      "rent": 42000,
+      "productionCapacity": 342,
+      "logistic": 40,
+      "staff": 60,
+      "favorableLevel": 80,
+      "defective": 3
+    }
+  },
+  {
+    "id": 11,
+    "name": "Torrelaguna",
+    "coordinates": [-3.541969, 40.828101],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 900000,
+      "rent": 31500,
+      "productionCapacity": 315,
+      "logistic": 60,
+      "staff": 55,
+      "favorableLevel": 60,
+      "defective": 1
+    }
+  },
+  {
+    "id": 12,
+    "name": "Valdelagua",
+    "coordinates": [-3.613345, 40.650834],
+    "info": {
+      "image": "resources/images/bigplant.png",
+      "cost": 850000,
+      "rent": 29750,
+      "productionCapacity": 288,
+      "logistic": 60,
+      "staff": 50,
+      "favorableLevel": 75,
+      "defective": 2
+    }
+  }
+]

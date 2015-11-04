@@ -1,0 +1,13 @@
+[
+  { "key": 1, "title": "You need more workers", "text": "To start production you need more workers. You can hire workers on operations window", "source": "operations", "tab": "employees", "action": "hire workers", "id": 2 },
+  { "key": 2, "title": "You need more materials", "text": "You need more materials from your supplier", "source": "supplier", "action": "see supplier", "id": 2 },
+  { "key": 3, "title": "You have take a loan", "text": "You have take a loan with 3% annual interest rate", "source": "finance", "action": "see loans", "tab": "loans" },
+  { "key": 4, "title": "You have to start production", "text": "You have to start productions on your plant", "source": "operations", "action": "see plant", "id": 2 },
+  { "key": 5, "title": "You have to hire saleforce", "text": "You need some saleforces to start sale your productions", "source": "sales", "action": "see sales" },
+  { "key": 6, "title": "You have to choose sales channel", "text": "You have no one sales channel yet. Go to sales and choose one", "source": "sales", "action": "choose sales channel" },
+  { "key": 7, "title": "You need more materials", "text": "You need more materials from your supplier", "source": "supplier", "action": "see supplier", "id": 2 },
+  { "key": 8, "title": "You need more materials", "text": "You need more materials from your supplier", "source": "supplier", "action": "see supplier", "id": 2 },
+  { "key": 9, "title": "You need more workers", "text": "To start production you need more workers. You can hire workers on operations window", "source": "operations", "action": "hire workers", "id": 2 }
+
+
+]

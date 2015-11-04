@@ -1,0 +1,27 @@
+[
+  {
+    "id": 4,
+    "name": "Ciutadella",
+    "image": "resources/images/bigplant.png",
+    "coordinates": [0.625257, 41.175401],
+    "info": {
+      "costSign": 45000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 725,
+      "maxVolume": 300,
+      "delivery": 7,
+      "paymentTerm": 30,
+      "additional": "No",
+      "reliability": 88,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

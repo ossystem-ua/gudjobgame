@@ -1,0 +1,26 @@
+[
+  {
+    "id": 9,
+    "name": "Springbuild",
+    "coordinates": [-3.285939, 40.241798],
+    "info": {
+      "costSign": 75000,
+      "3": false,
+      "6": true,
+      "12": true,
+      "24": true,
+      "costPerUnit": 725,
+      "maxVolume": 400,
+      "delivery": 14,
+      "paymentTerm": 30,
+      "additional": "No",
+      "reliability": 84,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

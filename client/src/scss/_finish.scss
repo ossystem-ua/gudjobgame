@@ -1,0 +1,20 @@
+.finish {
+
+	.content {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.cmp-tabs .tabs-header {
+		background: rgba(0, 0, 0, 0);
+		box-shadow: none;
+		text-align: center;
+		margin-bottom: 25px;
+		padding-top: 10px;
+
+		span:first-child {
+			padding-left: 0;
+		}
+	}
+
+}

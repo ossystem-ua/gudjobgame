@@ -1,0 +1,15 @@
+.supplier{
+  overflow-y: auto;
+  height: 100%;
+
+  .no-supplier{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #2196F3;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}

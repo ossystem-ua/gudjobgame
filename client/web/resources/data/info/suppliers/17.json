@@ -1,0 +1,26 @@
+[
+  {
+    "id": 17,
+    "name": "Huffington’s",
+    "coordinates": [-2.852981, 42.989867],
+    "info": {
+      "costSign": 22000,
+      "3": true,
+      "6": true,
+      "12": true,
+      "24": false,
+      "costPerUnit": 735,
+      "maxVolume": 220,
+      "delivery": 7,
+      "paymentTerm": 60,
+      "additional": "Yes",
+      "reliability": 92,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]

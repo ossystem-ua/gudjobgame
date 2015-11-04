@@ -1,0 +1,27 @@
+[
+  {
+    "id": 7,
+    "name": "La Clima",
+    "image": "resources/images/bigplant.png",
+    "coordinates": [-3.909413, 40.776381],
+    "info": {
+      "costSign": 100000,
+      "3": false,
+      "6": false,
+      "12": false,
+      "24": true,
+      "costPerUnit": 700,
+      "maxVolume": 700,
+      "delivery": 7,
+      "paymentTerm": 45,
+      "additional": "Yes",
+      "reliability": 97,
+      "graph": [
+        { "time": 1, "relationship": 95 },
+        { "time": 2, "relationship": 93 },
+        { "time": 3, "relationship": 85 },
+        { "time": 4, "relationship": 92 }
+      ]
+    }
+  }
+]
